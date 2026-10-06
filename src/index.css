@@ -109,3 +109,26 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+
+.user-card img{
+  max-width: 300px;
+  border-radius: 18px;
+}
+
+.user-card{
+  border-color: #aa3bff;
+  border-width: 3px;
+  padding-bottom: 20px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns:
+  repeat(3, 1fr);
+  gap: 20px;
+}
+
+.Header{
+  margin-bottom: 30px;
+}
